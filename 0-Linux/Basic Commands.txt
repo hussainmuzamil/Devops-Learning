@@ -1,0 +1,73 @@
+LINUX COMMANDS AND USE CASES:
+
+
+Shell Types:
+-> Bourne Shell(Sh Shell)
+-> C Shell(csh or tcsh)
+-> Z shell(zsh)
+-> Bourne again Shell(Bash)
+
+-- command to know about the shell
+
+echo $SHELL  //example: /bin/bash
+
+-- Print to Screen
+
+echo Hi
+
+-- List files & folders
+
+ls
+
+-- Change Directory
+
+cd my_directory
+
+-- Present Working Directory
+
+pwd
+
+-- Make New Directory
+
+mkdir new_directory
+
+-- Running multiple commands in one line
+
+cd new_directory; mkdir www; pwd
+
+-- Make Directory Hirearchy 
+
+mkdir -p /tmp/asia/pakistan/karachi
+
+-- Remove Directory
+
+rm -r /tmp/dir1
+
+-- Copy Directory
+
+cp -r my_dir1 /tmp/my_dir1
+
+-- Create new empty file
+
+touch new_file.txt
+
+-- Add Content to file
+
+cat > new_file.txt + hit (Ctrl + D) to save the content
+
+-- View Contents of File
+
+cat new_file.txt
+
+-- Copy File
+
+cp new_file.txt copy_file.txt
+
+-- Move(Rename) File
+
+mv new_file.txt sample_file.txt
+
+-- Remove File
+
+rm new_file.txt
+
